@@ -16,7 +16,7 @@ rust-version = "1.67"
 members = ["snakeice-rdkafka-sys"]
 
 [dependencies]
-snakeice-rdkafka-sys = { path = "snakeice-rdkafka-sys", version = "4.9.0", default-features = false }
+snakeice-rdkafka-sys = { path = "snakeice-rdkafka-sys", version = "4.9.1", default-features = false }
 futures-channel = "0.3.31"
 futures-executor = { version = "0.3.31", optional = true }
 futures-util = { version = "0.3.31", default-features = false }
