@@ -1195,51 +1195,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rdkafka"
-version = "0.40.0"
-dependencies = [
- "async-std",
- "backon",
- "chrono",
- "clap",
- "env_logger",
- "futures",
- "futures-channel",
- "futures-executor",
- "futures-util",
- "hdrhistogram",
- "libc",
- "log",
- "maplit",
- "rand",
- "rdkafka-sys",
- "regex",
- "serde",
- "serde_derive",
- "serde_json",
- "slab",
- "smol",
- "tokio",
- "tracing",
-]
-
-[[package]]
-name = "rdkafka-sys"
-version = "4.9.0+2.10.0"
-dependencies = [
- "cmake",
- "curl-sys",
- "libc",
- "libz-sys",
- "lz4-sys",
- "num_enum",
- "openssl-sys",
- "pkg-config",
- "sasl2-sys",
- "zstd-sys",
-]
-
-[[package]]
 name = "regex"
 version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1393,6 +1348,51 @@ dependencies = [
  "async-process",
  "blocking",
  "futures-lite",
+]
+
+[[package]]
+name = "snakeice-rdkafka"
+version = "0.40.0"
+dependencies = [
+ "async-std",
+ "backon",
+ "chrono",
+ "clap",
+ "env_logger",
+ "futures",
+ "futures-channel",
+ "futures-executor",
+ "futures-util",
+ "hdrhistogram",
+ "libc",
+ "log",
+ "maplit",
+ "rand",
+ "regex",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "slab",
+ "smol",
+ "snakeice-rdkafka-sys",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
+name = "snakeice-rdkafka-sys"
+version = "4.9.0+2.10.0"
+dependencies = [
+ "cmake",
+ "curl-sys",
+ "libc",
+ "libz-sys",
+ "lz4-sys",
+ "num_enum",
+ "openssl-sys",
+ "pkg-config",
+ "sasl2-sys",
+ "zstd-sys",
 ]
 
 [[package]]

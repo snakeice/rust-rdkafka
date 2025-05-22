@@ -1,5 +1,5 @@
 [package]
-name = "rdkafka-sys"
+name = "snakeice-rdkafka-sys"
 version = "4.9.0+2.10.0"
 authors = ["Federico Giraud <giraud.federico@gmail.com>"]
 build = "build.rs"
