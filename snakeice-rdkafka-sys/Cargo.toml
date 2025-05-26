@@ -1,6 +1,6 @@
 [package]
 name = "snakeice-rdkafka-sys"
-version = "4.9.1+2.10.0"
+version = "4.9.2+2.10.0"
 authors = ["Federico Giraud <giraud.federico@gmail.com>"]
 build = "build.rs"
 links = "rdkafka"
@@ -10,7 +10,7 @@ description = "Native bindings to the librdkafka library"
 keywords = ["kafka", "rdkafka"]
 categories = ["external-ffi-bindings"]
 edition = "2021"
-rust-version = "1.67"
+rust-version = "1.74"
 
 [dependencies]
 num_enum = "0.7.3"
