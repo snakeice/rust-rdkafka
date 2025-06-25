@@ -364,7 +364,7 @@ where
         loop {
             let event = self.client().poll_event(&self.queue, &deadline);
             if let EventPollResult::Event(ev) = event {
-                let evtype = unsafe { rdsys::rd_kafka_event_type(ev.ptr()) };
+                let evtype: i32 = unsafe { rdsys::rd_kafka_event_type(ev.ptr()) };
                 match evtype {
                     rdsys::RD_KAFKA_EVENT_DR => self.handle_delivery_report_event(ev),
                     rdsys::RD_KAFKA_EVENT_ERROR => self.handle_error_event(ev),

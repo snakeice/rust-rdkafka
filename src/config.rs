@@ -20,7 +20,7 @@
 //! - `statistics.interval.ms`: how often the statistic callback
 //!   specified in the [`ClientContext`] will be called. Default: 0 (disabled).
 //!
-//! [librdkafka-config]: https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md
+//! [librdkafka-config]: https://github.com/confluentinc/librdkafka/blob/master/CONFIGURATION.md
 
 use std::collections::HashMap;
 use std::ffi::CString;

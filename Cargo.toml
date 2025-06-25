@@ -31,7 +31,9 @@ tracing = { version = "0.1.41", optional = true }
 
 [dev-dependencies]
 async-std = { version = "1.13.1", features = ["attributes"] }
-backon = { version = "1.5.0", default-features = false, features = ["std-blocking-sleep"] }
+backon = { version = "1.5.0", default-features = false, features = [
+  "std-blocking-sleep",
+] }
 chrono = "0.4.41"
 clap = "4.5.38"
 env_logger = "0.11.8"
@@ -41,7 +43,7 @@ maplit = "1.0.2"
 rand = "0.9.1"
 regex = "1.11.1"
 smol = "2.0.2"
-tokio = { version = "1.18", features = ["macros", "rt-multi-thread", "time"] }
+tokio = { version = "1.45", features = ["macros", "rt-multi-thread", "time"] }
 
 # These features are re-exports of the features that the rdkafka-sys crate
 # provides. See the rdkafka-sys documentation for details.

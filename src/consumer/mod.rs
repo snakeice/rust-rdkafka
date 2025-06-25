@@ -155,7 +155,7 @@ impl ConsumerContext for DefaultConsumerContext {}
 ///
 /// Note that the commit APIs are not async in the Rust sense due to the lack of
 /// a callback-based interface exposed by librdkafka. See
-/// [librdkafka#3212](https://github.com/edenhill/librdkafka/issues/3212).
+/// [librdkafka#3212](https://github.com/confluentinc/librdkafka/issues/3212).
 #[derive(Clone, Copy, Debug)]
 pub enum CommitMode {
     /// In `Sync` mode, the caller blocks until the Kafka broker finishes

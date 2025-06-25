@@ -123,7 +123,7 @@
 //! For the configuration parameters common to both producers and consumers,
 //! refer to the documentation in the `config` module. Here are listed the most
 //! commonly used producer configuration. Click
-//! [here](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md)
+//! [here](https://github.com/confluentinc/librdkafka/blob/master/CONFIGURATION.md)
 //! for the full list.
 //!
 //! - `queue.buffering.max.messages`: Maximum number of messages allowed on the
@@ -157,7 +157,7 @@
 //! [`RDKafkaError::is_retriable`]: crate::error::RDKafkaError::is_retriable
 //! [`RDKafkaError::txn_requires_abort`]: crate::error::RDKafkaError::txn_requires_abort
 //! [`RDKafkaError::is_fatal`]: crate::error::RDKafkaError::is_fatal
-//! [Transactional Producer]: https://github.com/edenhill/librdkafka/blob/master/INTRODUCTION.md#transactional-producer
+//! [Transactional Producer]: https://github.com/confluentinc/librdkafka/blob/master/INTRODUCTION.md#transactional-producer
 
 use std::sync::Arc;
 

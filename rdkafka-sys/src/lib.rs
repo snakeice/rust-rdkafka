@@ -1,4 +1,4 @@
-//! Low level bindings to [librdkafka](https://github.com/edenhill/librdkafka),
+//! Low level bindings to [librdkafka](https://github.com/confluentinc/librdkafka),
 //! a C library for the [Apache Kafka] protocol with producer, consumer, and
 //! admin clients.
 //!

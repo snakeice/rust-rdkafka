@@ -391,7 +391,7 @@ incremental changes to static assignments
   partition queues after every call to `assign`.
 
   This is due to an upstream change in librdkafka. See
-  [edenhill/librdkafka#3231](https://github.com/edenhill/librdkafka/issues/3231)
+  [edenhill/librdkafka#3231](https://github.com/confluentinc/librdkafka/issues/3231)
   for details.
 
 * **Breaking change.** Several `TopicPartitionList`-related methods now return

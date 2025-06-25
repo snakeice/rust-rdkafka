@@ -1,6 +1,6 @@
 # rdkafka-sys
 
-Low level bindings to [librdkafka](https://github.com/edenhill/librdkafka),
+Low level bindings to [librdkafka](https://github.com/confluentinc/librdkafka),
 a C library for the [Apache Kafka] protocol with producer, consumer, and
 admin clients.
 
@@ -87,7 +87,7 @@ process is defined in [`build.rs`].
 [libz-sys]: https://crates.io/crates/libz-sys
 [curl-sys]: https://crates.io/crates/curl-sys
 [lz4-sys]: https://crates.io/crates/lz4-sys
-[mklove]: https://github.com/edenhill/mklove
+[mklove]: https://github.com/confluentinc/mklove
 [openssl-sys]: https://crates.io/crates/openssl-sys
 [rdkafka]: https://docs.rs/rdkafka
 [sasl2-sys]: https://docs.rs/sasl2-sys

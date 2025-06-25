@@ -247,15 +247,15 @@
 //! [at-least-once delivery example]: https://github.com/fede1024/rust-rdkafka/blob/master/examples/at_least_once.rs
 //! [runtime-smol]: https://github.com/fede1024/rust-rdkafka/blob/master/examples/runtime_smol.rs
 //! [runtime-async-std]: https://github.com/fede1024/rust-rdkafka/blob/master/examples/runtime_async_std.rs
-//! [broker-compat]: https://github.com/edenhill/librdkafka/blob/master/INTRODUCTION.md#broker-version-compatibility
+//! [broker-compat]: https://github.com/confluentinc/librdkafka/blob/master/INTRODUCTION.md#broker-version-compatibility
 //! [bytewax]: https://github.com/bytewax/bytewax
 //! [callysto]: https://github.com/vertexclique/callysto
 //! [`examples`]: https://github.com/fede1024/rust-rdkafka/blob/master/examples/
 //! [futures]: https://github.com/rust-lang/futures-rs
 //! [kafka-benchmark]: https://github.com/fede1024/kafka-benchmark
 //! [kafka-view]: https://github.com/fede1024/kafka-view
-//! [librdkafka]: https://github.com/edenhill/librdkafka
-//! [librdkafka-config]: https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md
+//! [librdkafka]: https://github.com/confluentinc/librdkafka
+//! [librdkafka-config]: https://github.com/confluentinc/librdkafka/blob/master/CONFIGURATION.md
 //! [message delivery semantics]: https://kafka.apache.org/0101/documentation.html#semantics
 //! [producer-transactions]: https://docs.rs/rdkafka/*/rdkafka/producer/#transactions
 //! [rdkafka-sys-features]: https://github.com/fede1024/rust-rdkafka/tree/master/rdkafka-sys/README.md#features

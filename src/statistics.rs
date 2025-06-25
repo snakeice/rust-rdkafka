@@ -8,7 +8,7 @@
 //! details.
 //!
 //! [`ClientContext::stats`]: crate::ClientContext::stats
-//! [librdkafka-stats]: https://github.com/edenhill/librdkafka/blob/master/STATISTICS.md
+//! [librdkafka-stats]: https://github.com/confluentinc/librdkafka/blob/master/STATISTICS.md
 
 use std::collections::HashMap;
 
@@ -390,7 +390,7 @@ mod tests {
         assert_eq!(stats.topics.len(), 1);
     }
 
-    // Example from https://github.com/edenhill/librdkafka/wiki/Statistics
+    // Example from https://github.com/confluentinc/librdkafka/blob/master/STATISTICS.md
     const EXAMPLE: &str = r#"
       {
         "name": "rdkafka#producer-1",
